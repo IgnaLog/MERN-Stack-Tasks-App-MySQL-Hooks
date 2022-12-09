@@ -26,7 +26,7 @@ npm install
 
 In the other terminal, go to the client directory and there run: *npm install* in the same way.
 
-After installation make sure you have mysql installed locally or via docker. In the project path /server/db.js I have created a basic configuration file to use mysql. Make sure you have the same database and configuration in your mysql.
+After installation make sure you have mysql installed locally or via docker. In the project path /server/db.js I have created a basic configuration file to use mysql. Make sure you have the same database and configuration in your mysql. Also create a table the same as the one found in /database/db.sql
 
 Finally, in both terminals, both root and client execute the command:
 
