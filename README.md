@@ -10,11 +10,11 @@ This application is in charge through a form to register tasks with their title,
 
 ![Form MERN Stack Tasks App (MySQL)](https://i.ibb.co/kDHWHtY/form-mern-stack-tasks-app-mysql.png)
 
-To create this project we have used [Vite + React](https://vitejs.dev/guide/)
+To create this project I have used [Vite + React](https://vitejs.dev/guide/)
 
-For this application we have also used libraries such as [TailwinCSS](https://tailwindcss.com/docs/guides/vite) to style it, [Formik](https://formik.org/docs/overview) to develop forms in a more comfortable way. Backend libraries like [Express](https://www.npmjs.com/package/express), [mysql2](https://www.npmjs.com/package/mysql2), [nodemon](https://www.npmjs.com/package/nodemon) and [morgan](https://www.npmjs.com/package/morgan). I also use [Axios](https://axios-http.com/es/docs/intro) for the communication API between frontend and backend.
+For this application I have also used backend libraries such as [Express](https://www.npmjs.com/package/express), [mysql2](https://www.npmjs.com/package/mysql2), [nodemon](https://www.npmjs.com/package/nodemon) and [morgan](https://www.npmjs.com/package/morgan). [Axios](https://axios-http.com/es/docs/intro) for the communication between frontend and backend. [Formik](https://formik.org/docs/overview) to develop forms in a more comfortable way. [TailwinCSS](https://tailwindcss.com/docs/guides/vite) to stylize the web.
 
-We have used [React Hooks](https://es.reactjs.org/docs/hooks-intro.html) like **useState**, **useEffect** and **useContext**.
+I also used [React Hooks](https://es.reactjs.org/docs/hooks-intro.html) like **useState**, **useEffect** and **useContext**.
 
 ## Quick start
 
@@ -24,7 +24,7 @@ To deploy this project, you should first install both the server and client node
 npm install
 ```
 
-In the other terminal, go to the client directory and there run: *npm install* in the same way.
+In the other terminal, go to the client directory and there run: `npm install` in the same way.
 
 After installation make sure you have mysql installed locally or via docker. In the project path /server/db.js I have created a basic configuration file to use mysql. Make sure you have the same database and configuration in your mysql. Also create a table the same as the one found in /database/db.sql
 
@@ -39,6 +39,7 @@ In the browser type the url:
 ```url
 http://localhost:5173/
 ```
+
 ## Compile dist files
 
 To compile the dist files you need to go to client path and execute:
